@@ -1,0 +1,23 @@
+Performing system checks...
+
+System check identified no issues (0 silenced).
+October 12, 2017 - 09:43:04
+Django version 1.11.5, using settings 'download.settings'
+Starting development server at http://10.2.1.117:7001/
+Quit the server with CONTROL-C.
+[12/Oct/2017 09:44:13] "GET /down HTTP/1.1" 200 184
+[13/Oct/2017 02:46:07] "GET /down HTTP/1.1" 200 15514143
+Performing system checks...
+
+System check identified no issues (0 silenced).
+October 12, 2017 - 09:43:44
+Django version 1.11.5, using settings 'download.settings'
+Starting development server at http://10.2.1.117:7001/
+Quit the server with CONTROL-C.
+[13/Oct/2017 02:58:43] "GET /down HTTP/1.1" 200 1326592
+[2017-10-13 02:58:43,908] - Broken pipe from ('10.2.1.161', 53167)
+
+[13/Oct/2017 03:07:59] "GET /raw_df HTTP/1.1" 200 32523264
+[2017-10-13 03:07:59,624] - Broken pipe from ('10.2.1.161', 53408)
+
+[13/Oct/2017 06:48:10] "GET /raw_df HTTP/1.1" 200 1088643084
